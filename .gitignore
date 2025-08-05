@@ -1,1 +1,35 @@
-data/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Data
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.pkl
+
+# IDEs
+.idea/
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# npm (for frontend)
+node_modules/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
