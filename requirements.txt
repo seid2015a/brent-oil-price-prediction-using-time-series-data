@@ -1,1 +1,10 @@
-.
+pandas
+numpy
+matplotlib
+seaborn
+pymc3==3.11.5 
+arviz
+jupyter
+flask
+flask_cors
+gunicorn
